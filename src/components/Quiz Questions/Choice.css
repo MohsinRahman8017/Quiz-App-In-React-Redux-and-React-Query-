@@ -1,0 +1,25 @@
+.Choice-Wrapper{
+    width: 88%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #0080ff7d;
+    border-radius: 4px;
+    padding: 4px 13px;
+    font-family: 'Phagspa';
+    font-weight: 400;
+    background: #0075ff1a;
+    cursor: pointer;
+    margin-bottom: 13px;
+    justify-content: space-between;
+}
+
+.error{
+    border: 1px solid #ff00009c; 
+    background: #ff4d000b;
+}
+
+.success{
+    border: 1px solid #05ea1cee; 
+    background: #00ff2629;
+}

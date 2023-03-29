@@ -1,0 +1,14 @@
+.Question-Wrapper{
+    width: 95%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.Question-Wrapper > span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'PHAGSPA';
+}
+

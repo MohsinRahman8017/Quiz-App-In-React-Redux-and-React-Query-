@@ -1,0 +1,134 @@
+{
+    "Questions" : [
+        {   
+            "id" : 1,
+            "Question" : " What Does HTML stands for",
+            "Choices" : [
+                 "Hyper Text Preprocessor",
+                 "Hyper Text Markup Language",
+                 "Hyper Text Multiple Language",
+                 "Hyper Text Multi Language"
+            ],
+            "Answer" : "Hyper Text Markup Language"
+        },
+        {   
+            "id" : 2,
+            "Question" : " Which one is a  Javascript Library",
+            "Choices" : [
+                 "Django",
+                 "Laravel",
+                 "React",
+                 "Ruby"
+            ],
+            "Answer" : "React"
+        },
+        {   
+            "id" : 3,
+            "Question" : " Next.js is a Frontend Framework or Backend ",
+            "Choices" : [
+                 "Frontend",
+                 "Backend",
+                 "Both 1 and 2",
+                 "none"
+            ],
+            "Answer" : "Both 1 and 2"
+        },
+        {   
+            "id" : 4,
+            "Question" : "Which javascript method is use to filter an array",
+            "Choices" : [
+                 "map",
+                 "foreach",
+                 "find",
+                 "filter"
+            ],
+            "Answer" : "filter"
+        },
+        {   
+            "id" : 5,
+            "Question" : "What is the react approach to push new item in array : const[Array,setArray] is The State",
+            "Choices" : [
+                 "Array.push(item) ",
+                 "setArray([...Array,item])",
+                 "setArray(item)",
+                 "setArray(...Array,item)"
+            ],
+            "Answer" : "setArray([...Array,item])"
+        },
+        {   
+            "id" : 6,
+            "Question" : "What are React Lifecycle ?",
+            "Choices" : [
+                 "Mounting, Updating, and Unmounting",
+                 "Updating , Mounting, and Unmounting",
+                 "Unmounting,Updating,Mounting",
+                 "none of these"
+            ],
+            "Answer" : "Mounting, Updating, and Unmounting"
+        },
+        {   
+            "id" : 7,
+            "Question" : "What is a props object used for ? ",
+            "Choices" : [
+                 "To pass properties to a component",
+                 "To hold data in a component",
+                 "Both option 1 and 2  ",
+                 "All of the above"
+            ],
+            "Answer" : "All of the above"
+        }
+        
+    ],
+
+    "Quizes" : [
+        {
+            "id": 1,
+            "title": "Quiz number 1",
+            "total_questions": 50,
+            "created_at": "date"
+        },
+        {
+            "id": 2,
+            "title": "Quiz number 2",
+            "total_questions": 50,
+            "created_at": "date"
+        },
+        {
+            "id": 2,
+            "title": "Quiz number 2",
+            "total_questions": 50,
+            "created_at": "date"
+        }
+    ],
+
+    "quize_questions": [
+        {
+            "quiz_id": 1,
+            "question_id": 1
+        },
+        {
+            "quiz_id": 1,
+            "question_id": 2
+        },
+        {
+            "quiz_id": 1,
+            "question_id": 27
+        },
+        {
+            "quiz_id": 1,
+            "question_id": 78
+        },
+        {
+            "quiz_id": 2,
+            "question_id": 3
+        },
+        {
+            "quiz_id": 2,
+            "question_id": 48
+        },
+        {
+            "quiz_id": 2,
+            "question_id": 56
+        }
+    ]
+}
